@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+:root {
+    --cor1: #241023;
+    --cor2: #ffa31a;
+    --cor3: #F3F3F3;
+    --cor4: #82816D;
+    --fonte1: "Marriweather Sans";
+    --fonte2: "Roboto";
+}
+
+body {
+    margin: 0;
+    background-image: url("./images/tributoKB.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--cor3);
+    font-family: var(--fonte2);
+
+}
+
+header {
+    height: 10vh;
+    color: var(--cor2);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+}
+
+header > .logo {
+    padding-top: 20px;
+    font-size: 1.7em;
+    margin-left: 20px;
+    font-family: "Dancing Script";
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #241023;
+    color: #ffa31a;
+    padding-bottom: 8px;
+    padding: 5px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    background-color: #ffa31a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lista-nav {
+    padding-top: 20px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    cursor: pointer;
+    
+}
+
+.lista-nav > a {
+    text-decoration: none;
+    color: #ffa31a;
+}
+
+.lista-nav > a:hover {
+    text-decoration: underline;
+}
+
+.titulos {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    width: 98vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-top: 15px;
+    height: 35vh;
+    width: 15vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.h1principal {
+    color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-family: "Dancing Script";
+}
+
+.trofeu-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ano-titulo {
+    margin: auto;
+    font-size: 2em;
+    color: #ffa31a;
+}
+
+main > h2 {
+    margin: 35px;
+    font-size: 2em;
+    color: var(--cor2);
+    background-color: var(--cor1);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.texto-sobre {
+    width: 60vw;
+    margin: auto;
+    height: fit-content;
+    text-align: justify;
+    font-size: large;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.estats {
+    color: #ffa31a;
+    font-family: "Dancing Script";
+    font-size: 2em;
+    text-align: center;
+    
+}
